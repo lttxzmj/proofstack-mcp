@@ -36,4 +36,6 @@ Works with any MCP client that supports remote Streamable HTTP servers (Claude D
 - Acquisition narratives are researched from first-party sources; cases that have not been researched yet say so explicitly instead of returning template text.
 - Every case ships its evidence: source URLs with evidence grades (A/B/C).
 
+**Open dataset**: the full case library and benchmarks are downloadable at [proofstack-dataset](https://github.com/lttxzmj/proofstack-dataset) (CC BY 4.0).
+
 More machine-readable context: [llms.txt](https://proof-stack-lake.vercel.app/llms.txt) · [Pricing benchmarks](https://proof-stack-lake.vercel.app/benchmarks) · [Case library](https://proof-stack-lake.vercel.app/cases)
