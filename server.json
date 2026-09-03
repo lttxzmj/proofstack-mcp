@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "app.vercel.proof-stack-lake/proofstack",
+  "description": "Audited indie product business cases with source-backed pricing, revenue and pricing benchmarks.",
+  "repository": {
+    "url": "https://github.com/lttxzmj/proofstack-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://proof-stack-lake.vercel.app/mcp"
+    }
+  ]
+}
