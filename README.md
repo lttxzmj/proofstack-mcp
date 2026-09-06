@@ -12,7 +12,7 @@ https://proof-stack-lake.vercel.app/mcp
 
 | Tool | What it does |
 |---|---|
-| `search_cases` | Search 43 audited products by keyword, category, business model, or acquisition channel |
+| `search_cases` | Search the audited product library (40+, grows weekly) by keyword, category, business model, or acquisition channel |
 | `get_case` | Full case detail: pricing tiers, revenue disclosures, acquisition operations, what to copy / what not to copy, and source URLs for every claim |
 | `pricing_benchmarks` | Median first paid tier, free-tier prevalence, and paywall-capability distribution, computed from published pricing pages |
 
