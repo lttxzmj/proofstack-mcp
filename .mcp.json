@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "proofstack": {
+      "url": "https://proof-stack-lake.vercel.app/mcp"
+    }
+  }
+}
