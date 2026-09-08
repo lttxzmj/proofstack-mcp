@@ -1,5 +1,7 @@
 # ProofStack MCP Server
 
+[![AI-visibility check](https://proof-stack-lake.vercel.app/ai-check/badge.svg?url=proof-stack-lake.vercel.app)](https://proof-stack-lake.vercel.app/ai-check?url=proof-stack-lake.vercel.app)
+
 Remote [Model Context Protocol](https://modelcontextprotocol.io) server for [ProofStack](https://proof-stack-lake.vercel.app) — a library of audited indie product business cases. Every figure is read from a published source (pricing pages, founder posts, transparency dashboards) and linked, so AI assistants can cite evidence instead of guessing.
 
 **Endpoint** (Streamable HTTP, no auth required):
@@ -39,3 +41,8 @@ Works with any MCP client that supports remote Streamable HTTP servers (Claude D
 **Open dataset**: the full case library and benchmarks are downloadable at [proofstack-dataset](https://github.com/lttxzmj/proofstack-dataset) (CC BY 4.0).
 
 More machine-readable context: [llms.txt](https://proof-stack-lake.vercel.app/llms.txt) · [Pricing benchmarks](https://proof-stack-lake.vercel.app/benchmarks) · [Case library](https://proof-stack-lake.vercel.app/cases)
+
+
+## Free tool: AI-visibility check
+
+Can GPTBot and ClaudeBot actually read *your* site? Run the free check (robots rules, llms.txt, sitemap, server rendering, JSON-LD) and get a shareable scorecard + README badge: https://proof-stack-lake.vercel.app/ai-check
