@@ -32,6 +32,10 @@ https://proof-stack-lake.vercel.app/mcp
 
 Works with any MCP client that supports remote Streamable HTTP servers (Claude Desktop / Claude Code, Cursor, etc.).
 
+## Source code
+
+The server implementation is open (Apache-2.0) in [`src/`](src/): [`mcp.ts`](src/mcp.ts) is the exact JSON-RPC/tool logic running at the endpoint above, and [`pricingBenchmark.ts`](src/pricingBenchmark.ts) is the benchmark computation. The data source contract is documented in [`database-contract.ts`](src/database-contract.ts); the underlying dataset is open too (CC BY 4.0) at [proofstack-dataset](https://github.com/lttxzmj/proofstack-dataset).
+
 ## Data honesty rules
 
 - Revenue that is not publicly disclosed is returned as `unknown` — never estimated.
